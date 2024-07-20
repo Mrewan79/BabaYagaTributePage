@@ -1,0 +1,66 @@
+** start of undefined **
+
+<head></head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main bebas-neue-regular">
+      <h1 id="title">Baba Yaga: The Wicked Witch of the Forest</h1>
+      <div id="img-div"><img src="https://i.pinimg.com/originals/8b/88/8e/8b888e77c3a3ef1643a1b69e206549c1.jpg" id="image" alt="Baba Yaga">
+        <figcaption id="img-caption">A depiction of Baba Yaga</figcaption>
+      </div>
+      <p id="tribute-info">Baba Yaga is a wicked witch from Slavic folklore who lives in a hut that stands on chicken legs and is surrounded by a fence made of human bones. She is known for her cruelty, her love of human flesh, and her ability to grant wishes to those who treat her with respect.</p>
+      <p id="tribute-info">Despite her fearsome reputation, Baba Yaga is also a symbol of female power and independence in a patriarchal society. She is often depicted as a strong and fierce woman who will stop at nothing to get what she wants.</p>
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Baba_Yaga" target="_blank">Learn more about Baba Yaga's origins and significance in Slavic folklore.</a></div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#main {
+  text-align: center;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#img-div {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img {
+  display:block;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+#tribute-link {
+  font-size: larger;
+}
+
+** end of undefined **
